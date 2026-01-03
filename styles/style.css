@@ -1,8 +1,67 @@
+.header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 25px;
+    text-align: justify;
+    padding: 2px;
+    font-style: normal;
+    word-spacing: 15;
+    letter-spacing: 1px;
+    text-shadow: 3px 0px 50px;
+}
+
 .image1{
     background-image: url(../images/mountain.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 250px;
+    border: 5px solid grey ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px 0px 50px 0px;
+    padding: 50px;
+    margin-left: 25px;
+    width: 400px;
+    height: 350px;
     box-sizing: border-box;
-    box-shadow: 10px 10px 17px;
+    box-shadow: 7px 7px 170px;
+}
+
+.image2{
+        background-image: url(../images/canyon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid grey ;
+    border-radius: 0px 50px 0px 50px;
+    padding: 50px;
+    margin-left: 25px;
+    width: 650px;
+    height: 500px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 170px;
+}
+
+.paragraph{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 25px;
+    text-align: justify;
+    padding: 2px;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    word-spacing: 15;
+    letter-spacing: 1px;
+    text-shadow: 5px 0px 30px;
+}
+
+.button{
+    border: 5px solid rgba(4, 151, 78, 0.575);
+    margin-top: 30px;
+    width: 150px;
+    margin-left: 130px; 
+    padding:5px;
+    box-shadow: 0px 1px 3px;
+    box-sizing: border-box;
 }

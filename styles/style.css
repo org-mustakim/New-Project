@@ -40,6 +40,11 @@
     box-sizing: border-box;
     box-shadow: 7px 7px 170px;
 }
+.span{
+    font-size: x-large;
+    font-weight: bold;
+    font-style:italic;
+}
 
 .paragraph{
     margin-top: 15px;
@@ -50,7 +55,7 @@
     padding: 2px;
     font-size: 24px;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-style: italic;
+    font-style: normal;
     word-spacing: 15;
     letter-spacing: 1px;
     text-shadow: 5px 0px 30px;
